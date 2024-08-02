@@ -1,0 +1,31 @@
+{
+  "name": "swag-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "env-cmd -f .env.dev nodemon app.js",
+    "prod": "env-cmd -f .env.prod node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharakaJith/swag-it.git"
+  },
+  "author": "jith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharakaJith/swag-it/issues"
+  },
+  "homepage": "https://github.com/CharakaJith/swag-it#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.19.2",
+    "winston": "^3.13.1"
+  }
+}
